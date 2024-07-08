@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/fadhilarab47/sma",
+    "https://github.com/antoo69/modulmusik",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
