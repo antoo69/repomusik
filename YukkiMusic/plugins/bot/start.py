@@ -250,7 +250,7 @@ async def start_comm(client, message: Message, _):
             )
 
 
-@app.on_message(filters.command(["astart"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["/start"]) & filters.group & ~BANNED_USERS)
 @LanguageStart
 async def testbot(client, message: Message, _):
     out = alive_panel(_)
