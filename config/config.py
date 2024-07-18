@@ -53,12 +53,12 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/antoo69/repomusik",
+    "https://github.com/antoo69/modul9",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
 
-EXTRA_PLUGINS_FOLDER = getenv("https://github.com/antoo69/modulmusik2")
+EXTRA_PLUGINS_FOLDER = getenv("https://github.com/antoo69/modul9")
 
 # Your folder name in your extra plugins repo where all plugins stored
 
@@ -90,7 +90,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/",
+    "https://github.com/antoo69/repomusik1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -131,7 +131,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TeamYukki/YukkiMusicBot")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TeamYukki/repomusik1")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -167,7 +167,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # If you want your bot to setup the commands automatically in the bot's menu set it to true.
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
-SET_CMDS = getenv("SET_CMDS", "False")
+SET_CMDS = getenv("SET_CMDS", "True")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
@@ -215,16 +215,16 @@ PHOTO = list(
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://telegra.ph//file/e392b2b6e2dd714e9dba1.jpg",
+    "https://telegra.ph//file/6ede8d36c52ca5b30e4a0.jpg",
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph//file/ac560c769805be7f617e7.jpg",
+    "https://telegra.ph//file/367d54c914940e75f159e.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph//file/893b9377825cd89f0e8ba.jpg",
+    "https://telegra.ph//file/a5c64b31f6929355aa629.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
