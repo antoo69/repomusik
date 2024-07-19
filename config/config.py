@@ -131,7 +131,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TeamYukki/repomusik3")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/antoo69/repomusik3")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -167,7 +167,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # If you want your bot to setup the commands automatically in the bot's menu set it to true.
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
-SET_CMDS = getenv("SET_CMDS", "True")
+SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
